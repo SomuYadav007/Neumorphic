@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Neumorphic_Example' do
+  pod 'Neumorphic', :path => '../'
+
+  target 'Neumorphic_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
