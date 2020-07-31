@@ -1,0 +1,6 @@
+framework module Neumorphic {
+  umbrella header "Neumorphic-umbrella.h"
+
+  export *
+  module * { export * }
+}

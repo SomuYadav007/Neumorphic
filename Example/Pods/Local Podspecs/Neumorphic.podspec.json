@@ -1,0 +1,22 @@
+{
+  "name": "Neumorphic",
+  "version": "0.1.0",
+  "summary": "A short description of Neumorphic.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/SomuYadav/Neumorphic",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "SomuYadav": "somendra.sy@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/SomuYadav/Neumorphic.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Neumorphic/Classes/**/*"
+}

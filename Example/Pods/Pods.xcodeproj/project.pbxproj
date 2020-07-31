@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1669FB9BD4AD9EA51FCEDAA794673CE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		18347FE924D2ACA0005F5A18 /* UIColor+tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18347FE624D2ACA0005F5A18 /* UIColor+tool.swift */; };
+		18347FEA24D2ACA0005F5A18 /* SYNeumorphicLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18347FE724D2ACA0005F5A18 /* SYNeumorphicLayer.swift */; };
+		18347FEB24D2ACA0005F5A18 /* SYNeumorphicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18347FE824D2ACA0005F5A18 /* SYNeumorphicView.swift */; };
+		2A8B346204A20B9748DB476A9396C883 /* Pods-Neumorphic_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2496479E38360D7EBAC2EE51DB934BA4 /* Pods-Neumorphic_Example-dummy.m */; };
+		2F9B18635D5D50C54DD982D07198A1DC /* Neumorphic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9238318102EBE3F982BC3C7861D66E00 /* Neumorphic-dummy.m */; };
+		34D34195B2BAD89F969179918347FF53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		35D657B55B65B756E3692EBA2B22921A /* Neumorphic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14C75227DB019BE326573611E2D5D806 /* Neumorphic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		563BC9D668F4302D114270B4DB49D2ED /* Pods-Neumorphic_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 273DB3F2BE271407B4B9650D2648002C /* Pods-Neumorphic_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		664BEB0E46B0A9A1C15486F756B36287 /* Pods-Neumorphic_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E797DC670D4B1747FFA2E6798D04B /* Pods-Neumorphic_Tests-dummy.m */; };
+		B64348F453A1C48883EE3DDC3E56FB40 /* Pods-Neumorphic_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25B29509E0051FCDA1B50C985A687508 /* Pods-Neumorphic_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF79C9074538EC886901742B011B3311 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		291B9A88A921ACA49C6627F343B1BE11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0D87A10740C7C59EED20CD3B952F966;
+			remoteInfo = "Pods-Neumorphic_Example";
+		};
+		7B47790A926C519DE4ED89A41E13A716 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA1A5345CBBA8793DE009F9ACCA4756B;
+			remoteInfo = Neumorphic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14C75227DB019BE326573611E2D5D806 /* Neumorphic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Neumorphic-umbrella.h"; sourceTree = "<group>"; };
+		18347FE624D2ACA0005F5A18 /* UIColor+tool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+tool.swift"; path = "Neumorphic/Classes/UIColor+tool.swift"; sourceTree = "<group>"; };
+		18347FE724D2ACA0005F5A18 /* SYNeumorphicLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SYNeumorphicLayer.swift; path = Neumorphic/Classes/SYNeumorphicLayer.swift; sourceTree = "<group>"; };
+		18347FE824D2ACA0005F5A18 /* SYNeumorphicView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SYNeumorphicView.swift; path = Neumorphic/Classes/SYNeumorphicView.swift; sourceTree = "<group>"; };
+		2496479E38360D7EBAC2EE51DB934BA4 /* Pods-Neumorphic_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Neumorphic_Example-dummy.m"; sourceTree = "<group>"; };
+		25B29509E0051FCDA1B50C985A687508 /* Pods-Neumorphic_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Neumorphic_Example-umbrella.h"; sourceTree = "<group>"; };
+		273DB3F2BE271407B4B9650D2648002C /* Pods-Neumorphic_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Neumorphic_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		35F330A44E09C8B4FC5E9E735E11777B /* Neumorphic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Neumorphic.debug.xcconfig; sourceTree = "<group>"; };
+		3B27CF1CB3FABA8B02E6E2A3D573BFAE /* Neumorphic.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Neumorphic.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		54CAF418A1BF1C5A8FC0C40DCEF55ED5 /* Neumorphic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Neumorphic.modulemap; sourceTree = "<group>"; };
+		57D43D1790E8D055DC76C2A7EEC32D07 /* Pods-Neumorphic_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Neumorphic_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		58195F4F9DE6D080D10C537FEED20975 /* Pods-Neumorphic_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Neumorphic_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5F762744D5F230502B97638859504B79 /* Pods-Neumorphic_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Neumorphic_Tests.modulemap"; sourceTree = "<group>"; };
+		69FCD24AC2E574B905A1F5D7ACA160EC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		770580E96DC57741F8C575B6E7D42CC2 /* Pods-Neumorphic_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Neumorphic_Example.release.xcconfig"; sourceTree = "<group>"; };
+		840E797DC670D4B1747FFA2E6798D04B /* Pods-Neumorphic_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Neumorphic_Tests-dummy.m"; sourceTree = "<group>"; };
+		87B5B757FCE6C940FE0D17F597012BE4 /* Pods-Neumorphic_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Neumorphic_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8ABF752F546482400BA40B1BFED2580B /* Pods-Neumorphic_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Neumorphic_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9002B9677335772228A672FEAFB72CAF /* Pods-Neumorphic_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Neumorphic_Tests-Info.plist"; sourceTree = "<group>"; };
+		90595BDC58A4F69335DA94D5036FFB01 /* Pods-Neumorphic_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Neumorphic_Example-Info.plist"; sourceTree = "<group>"; };
+		9238318102EBE3F982BC3C7861D66E00 /* Neumorphic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Neumorphic-dummy.m"; sourceTree = "<group>"; };
+		9BE0778AC36273B44BD0E7E440C679E4 /* Neumorphic-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Neumorphic-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC6EDCFC1F8DC93A1613D5EF4FE2DE73 /* Neumorphic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Neumorphic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2DEF80E6920FA237B749C052C332FA2 /* Neumorphic-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Neumorphic-prefix.pch"; sourceTree = "<group>"; };
+		CC1CB39BAA2D9A574D880BF4C9513AED /* Pods_Neumorphic_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Neumorphic_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCDC366F6C37E47127ABDA8DB4DC1570 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E7E4A821E7DABDD9E7D72799BEEF11CE /* Pods-Neumorphic_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Neumorphic_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E93A42E8A79C2C78C4734DFA17A314E7 /* Pods-Neumorphic_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Neumorphic_Example.modulemap"; sourceTree = "<group>"; };
+		EED65B33D058783E8E191E260729F4E7 /* Neumorphic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Neumorphic.release.xcconfig; sourceTree = "<group>"; };
+		F23E1F5F251B333EF8346AE6245A8FF6 /* Pods-Neumorphic_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Neumorphic_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F2D889B93C2042018D3013DC15AAF899 /* Pods-Neumorphic_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Neumorphic_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F94386D4012FEAAB0686FF4A889D9F6D /* Pods_Neumorphic_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Neumorphic_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F96D6C9778F6D33D651C96F2A24E1D46 /* Pods-Neumorphic_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Neumorphic_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B657B9E4558F87D57E5037A98C227EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1669FB9BD4AD9EA51FCEDAA794673CE9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B16CAF72FB41F867C2F6301ECBD3DB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF79C9074538EC886901742B011B3311 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ACC57B06B53A0E91F01F61AE6B063C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D34195B2BAD89F969179918347FF53 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1370A2372E1CBC7D1B03A7BB70ADBE80 /* Pods-Neumorphic_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5F762744D5F230502B97638859504B79 /* Pods-Neumorphic_Tests.modulemap */,
+				8ABF752F546482400BA40B1BFED2580B /* Pods-Neumorphic_Tests-acknowledgements.markdown */,
+				58195F4F9DE6D080D10C537FEED20975 /* Pods-Neumorphic_Tests-acknowledgements.plist */,
+				840E797DC670D4B1747FFA2E6798D04B /* Pods-Neumorphic_Tests-dummy.m */,
+				9002B9677335772228A672FEAFB72CAF /* Pods-Neumorphic_Tests-Info.plist */,
+				273DB3F2BE271407B4B9650D2648002C /* Pods-Neumorphic_Tests-umbrella.h */,
+				F96D6C9778F6D33D651C96F2A24E1D46 /* Pods-Neumorphic_Tests.debug.xcconfig */,
+				F2D889B93C2042018D3013DC15AAF899 /* Pods-Neumorphic_Tests.release.xcconfig */,
+			);
+			name = "Pods-Neumorphic_Tests";
+			path = "Target Support Files/Pods-Neumorphic_Tests";
+			sourceTree = "<group>";
+		};
+		20AF93085D01770917EBA6F25405D679 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC6EDCFC1F8DC93A1613D5EF4FE2DE73 /* Neumorphic.framework */,
+				F94386D4012FEAAB0686FF4A889D9F6D /* Pods_Neumorphic_Example.framework */,
+				CC1CB39BAA2D9A574D880BF4C9513AED /* Pods_Neumorphic_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48D7FA265B71DD37C4103C775DA12ADF /* Neumorphic */ = {
+			isa = PBXGroup;
+			children = (
+				18347FE724D2ACA0005F5A18 /* SYNeumorphicLayer.swift */,
+				18347FE824D2ACA0005F5A18 /* SYNeumorphicView.swift */,
+				18347FE624D2ACA0005F5A18 /* UIColor+tool.swift */,
+				C415146D2BBE01F53119C7D4E72A6E56 /* Pod */,
+				57BEF92A525E02C346E5C68EE4971DC4 /* Support Files */,
+			);
+			name = Neumorphic;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4B496C20558D2BE95A19B859DF7E7463 /* Pods-Neumorphic_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E93A42E8A79C2C78C4734DFA17A314E7 /* Pods-Neumorphic_Example.modulemap */,
+				57D43D1790E8D055DC76C2A7EEC32D07 /* Pods-Neumorphic_Example-acknowledgements.markdown */,
+				87B5B757FCE6C940FE0D17F597012BE4 /* Pods-Neumorphic_Example-acknowledgements.plist */,
+				2496479E38360D7EBAC2EE51DB934BA4 /* Pods-Neumorphic_Example-dummy.m */,
+				E7E4A821E7DABDD9E7D72799BEEF11CE /* Pods-Neumorphic_Example-frameworks.sh */,
+				90595BDC58A4F69335DA94D5036FFB01 /* Pods-Neumorphic_Example-Info.plist */,
+				25B29509E0051FCDA1B50C985A687508 /* Pods-Neumorphic_Example-umbrella.h */,
+				F23E1F5F251B333EF8346AE6245A8FF6 /* Pods-Neumorphic_Example.debug.xcconfig */,
+				770580E96DC57741F8C575B6E7D42CC2 /* Pods-Neumorphic_Example.release.xcconfig */,
+			);
+			name = "Pods-Neumorphic_Example";
+			path = "Target Support Files/Pods-Neumorphic_Example";
+			sourceTree = "<group>";
+		};
+		55E58374928E68482BC3453F608AEAF2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B496C20558D2BE95A19B859DF7E7463 /* Pods-Neumorphic_Example */,
+				1370A2372E1CBC7D1B03A7BB70ADBE80 /* Pods-Neumorphic_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		57BEF92A525E02C346E5C68EE4971DC4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				54CAF418A1BF1C5A8FC0C40DCEF55ED5 /* Neumorphic.modulemap */,
+				9238318102EBE3F982BC3C7861D66E00 /* Neumorphic-dummy.m */,
+				9BE0778AC36273B44BD0E7E440C679E4 /* Neumorphic-Info.plist */,
+				C2DEF80E6920FA237B749C052C332FA2 /* Neumorphic-prefix.pch */,
+				14C75227DB019BE326573611E2D5D806 /* Neumorphic-umbrella.h */,
+				35F330A44E09C8B4FC5E9E735E11777B /* Neumorphic.debug.xcconfig */,
+				EED65B33D058783E8E191E260729F4E7 /* Neumorphic.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Neumorphic";
+			sourceTree = "<group>";
+		};
+		944DE118F0941271011224453151FA52 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48D7FA265B71DD37C4103C775DA12ADF /* Neumorphic */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C415146D2BBE01F53119C7D4E72A6E56 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				69FCD24AC2E574B905A1F5D7ACA160EC /* LICENSE */,
+				3B27CF1CB3FABA8B02E6E2A3D573BFAE /* Neumorphic.podspec */,
+				DCDC366F6C37E47127ABDA8DB4DC1570 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				944DE118F0941271011224453151FA52 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				20AF93085D01770917EBA6F25405D679 /* Products */,
+				55E58374928E68482BC3453F608AEAF2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3C69943D1330B1126613AF4C45386473 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563BC9D668F4302D114270B4DB49D2ED /* Pods-Neumorphic_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59183AD9ECD561E9E17846EE7A3528DC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35D657B55B65B756E3692EBA2B22921A /* Neumorphic-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1171D36FA0616794E616B94B4E56B8B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64348F453A1C48883EE3DDC3E56FB40 /* Pods-Neumorphic_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BA1A5345CBBA8793DE009F9ACCA4756B /* Neumorphic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EB1D1CEB22D36F11942EE0DD7D2F77C /* Build configuration list for PBXNativeTarget "Neumorphic" */;
+			buildPhases = (
+				59183AD9ECD561E9E17846EE7A3528DC /* Headers */,
+				E8AAF8F206F4B84C9694613ED2743DE2 /* Sources */,
+				8ACC57B06B53A0E91F01F61AE6B063C3 /* Frameworks */,
+				66403B130714B5CE130C8536B93F0C33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Neumorphic;
+			productName = Neumorphic;
+			productReference = AC6EDCFC1F8DC93A1613D5EF4FE2DE73 /* Neumorphic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C0D87A10740C7C59EED20CD3B952F966 /* Pods-Neumorphic_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C802AAC22AB0D81B3CE2C431D3439652 /* Build configuration list for PBXNativeTarget "Pods-Neumorphic_Example" */;
+			buildPhases = (
+				D1171D36FA0616794E616B94B4E56B8B /* Headers */,
+				D78F9CF7CD1C4EC6E1F86C2241F94A24 /* Sources */,
+				4B16CAF72FB41F867C2F6301ECBD3DB9 /* Frameworks */,
+				6A33E39F040319398C009579B30AC3D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2CDAE3062938904D6CED46792F75E7D /* PBXTargetDependency */,
+			);
+			name = "Pods-Neumorphic_Example";
+			productName = "Pods-Neumorphic_Example";
+			productReference = F94386D4012FEAAB0686FF4A889D9F6D /* Pods_Neumorphic_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F0D1D85D1D78F751E0EB89FF1959CE8A /* Pods-Neumorphic_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64FE5DF4494ED9D96B77283C33B83C1C /* Build configuration list for PBXNativeTarget "Pods-Neumorphic_Tests" */;
+			buildPhases = (
+				3C69943D1330B1126613AF4C45386473 /* Headers */,
+				3EF7044F71E8894D33B0618DD6E33D15 /* Sources */,
+				0B657B9E4558F87D57E5037A98C227EC /* Frameworks */,
+				6CF295B7D2332F564DF82BE4B5DBB02A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23077430AF9195C07565E35322A7A277 /* PBXTargetDependency */,
+			);
+			name = "Pods-Neumorphic_Tests";
+			productName = "Pods-Neumorphic_Tests";
+			productReference = CC1CB39BAA2D9A574D880BF4C9513AED /* Pods_Neumorphic_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					BA1A5345CBBA8793DE009F9ACCA4756B = {
+						LastSwiftMigration = 1150;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 20AF93085D01770917EBA6F25405D679 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA1A5345CBBA8793DE009F9ACCA4756B /* Neumorphic */,
+				C0D87A10740C7C59EED20CD3B952F966 /* Pods-Neumorphic_Example */,
+				F0D1D85D1D78F751E0EB89FF1959CE8A /* Pods-Neumorphic_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66403B130714B5CE130C8536B93F0C33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A33E39F040319398C009579B30AC3D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CF295B7D2332F564DF82BE4B5DBB02A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EF7044F71E8894D33B0618DD6E33D15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664BEB0E46B0A9A1C15486F756B36287 /* Pods-Neumorphic_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78F9CF7CD1C4EC6E1F86C2241F94A24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8B346204A20B9748DB476A9396C883 /* Pods-Neumorphic_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8AAF8F206F4B84C9694613ED2743DE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9B18635D5D50C54DD982D07198A1DC /* Neumorphic-dummy.m in Sources */,
+				18347FE924D2ACA0005F5A18 /* UIColor+tool.swift in Sources */,
+				18347FEB24D2ACA0005F5A18 /* SYNeumorphicView.swift in Sources */,
+				18347FEA24D2ACA0005F5A18 /* SYNeumorphicLayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23077430AF9195C07565E35322A7A277 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Neumorphic_Example";
+			target = C0D87A10740C7C59EED20CD3B952F966 /* Pods-Neumorphic_Example */;
+			targetProxy = 291B9A88A921ACA49C6627F343B1BE11 /* PBXContainerItemProxy */;
+		};
+		B2CDAE3062938904D6CED46792F75E7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Neumorphic;
+			target = BA1A5345CBBA8793DE009F9ACCA4756B /* Neumorphic */;
+			targetProxy = 7B47790A926C519DE4ED89A41E13A716 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		500615C624FAA86EBB1D3750062BF252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35F330A44E09C8B4FC5E9E735E11777B /* Neumorphic.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Neumorphic/Neumorphic-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Neumorphic/Neumorphic-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Neumorphic/Neumorphic.modulemap";
+				PRODUCT_MODULE_NAME = Neumorphic;
+				PRODUCT_NAME = Neumorphic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5584F5932A6DDC320AC7C74637B40130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F96D6C9778F6D33D651C96F2A24E1D46 /* Pods-Neumorphic_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Neumorphic_Tests/Pods-Neumorphic_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Neumorphic_Tests/Pods-Neumorphic_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		976D526C006A5D10AEAEF8D543E51C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F23E1F5F251B333EF8346AE6245A8FF6 /* Pods-Neumorphic_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Neumorphic_Example/Pods-Neumorphic_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Neumorphic_Example/Pods-Neumorphic_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D260129938464410AEEB6C183D443E9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 770580E96DC57741F8C575B6E7D42CC2 /* Pods-Neumorphic_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Neumorphic_Example/Pods-Neumorphic_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Neumorphic_Example/Pods-Neumorphic_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D5C5006DD5C85CB66FEAA96AF0391980 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2D889B93C2042018D3013DC15AAF899 /* Pods-Neumorphic_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Neumorphic_Tests/Pods-Neumorphic_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Neumorphic_Tests/Pods-Neumorphic_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F894D9DEFBAA73A68CBC3D574ACFB975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EED65B33D058783E8E191E260729F4E7 /* Neumorphic.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Neumorphic/Neumorphic-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Neumorphic/Neumorphic-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Neumorphic/Neumorphic.modulemap";
+				PRODUCT_MODULE_NAME = Neumorphic;
+				PRODUCT_NAME = Neumorphic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EB1D1CEB22D36F11942EE0DD7D2F77C /* Build configuration list for PBXNativeTarget "Neumorphic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				500615C624FAA86EBB1D3750062BF252 /* Debug */,
+				F894D9DEFBAA73A68CBC3D574ACFB975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64FE5DF4494ED9D96B77283C33B83C1C /* Build configuration list for PBXNativeTarget "Pods-Neumorphic_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5584F5932A6DDC320AC7C74637B40130 /* Debug */,
+				D5C5006DD5C85CB66FEAA96AF0391980 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C802AAC22AB0D81B3CE2C431D3439652 /* Build configuration list for PBXNativeTarget "Pods-Neumorphic_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				976D526C006A5D10AEAEF8D543E51C35 /* Debug */,
+				D260129938464410AEEB6C183D443E9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

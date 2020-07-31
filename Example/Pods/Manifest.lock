@@ -1,0 +1,16 @@
+PODS:
+  - Neumorphic (0.1.0)
+
+DEPENDENCIES:
+  - Neumorphic (from `../`)
+
+EXTERNAL SOURCES:
+  Neumorphic:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Neumorphic: 209a73308119d531e66c063812ef7c0ee5f968e3
+
+PODFILE CHECKSUM: fc337965b9b41516837d0ae76be0a59f4dd527d5
+
+COCOAPODS: 1.9.3
