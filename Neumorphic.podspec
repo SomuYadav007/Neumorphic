@@ -9,16 +9,22 @@
 Pod::Spec.new do |s|
   s.name             = 'Neumorphic'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Neumorphic.'
+  s.summary          = 'it is a premade neumorphic design lib, you can use it by just neumorphic class name'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+#  This description is used to generate tags and improve search results.
+#  * Think: What does it do? Why did you write it? What is the focus?
+#  * Try to keep it short, snappy and to the point.
+#  * Write the description between the DESC delimiters below.
+#  * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: it is a premade neumorphic design lib, you can use it by just neumorphic class name
+views name will be like this:
+1. SYNeumorphicView
+2. SYNeumorphicButton
+3. SYNeumorphicTableCell
+...
+.
                        DESC
 
   s.homepage         = 'https://github.com/SomuYadav/Neumorphic'
@@ -28,7 +34,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/SomuYadav/Neumorphic.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'Neumorphic/Classes/**/*'
   
